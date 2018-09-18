@@ -6,7 +6,7 @@
 - Short description from list of topics in Slack
 
 ## Strings (string slicing, f-strings)
--
+- Chec
 
 ## Dictionary methods (keys(), values(), items(), get())
 
