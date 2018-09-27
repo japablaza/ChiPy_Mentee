@@ -55,5 +55,9 @@ print('Endo of the testing script')
 print('='*60)
 print(' ')
 
-print(resultado_get_url)
-print(http_code)
+city_id_lat = resultado_get_url['coord']['lat']
+city_id_lon = resultado_get_url['coord']['lon']
+
+print('Latitude from ' + city + ': ' + str(city_id_lat))
+print('Longitude from ' + city + ': ' + str(city_id_lon))
+print('Http code from API: ' + str(http_code))
